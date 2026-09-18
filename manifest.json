@@ -1,0 +1,9 @@
+{
+  "name": "Breakout 2D - 2 Jogadores",
+  "short_name": "Breakout2D",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f0f19",
+  "theme_color": "#4666e0",
+  "icons": [{"src": "icon-512.png","sizes": "512x512","type": "image/png"}]
+}
