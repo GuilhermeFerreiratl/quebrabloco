@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakout 2D - 2 Jogadores</title>
+<link rel="manifest" href="manifest.json">
+<style>
+ body{margin:0;background:#0f0f19;color:#fff;font-family:Arial;display:flex;justify-content:center;align-items:center;height:100vh}
+ canvas{background:#0f0f19;border:2px solid #4666e0;border-radius:12px}
+</style>
+</head>
+<body>
+<canvas id="game" width="800" height="600"></canvas>
+<script src="game.js"></script>
+<script>
+ if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js') }
+</script>
+</body>
+</html>
